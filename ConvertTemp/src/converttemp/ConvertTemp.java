@@ -20,9 +20,9 @@ public class ConvertTemp {
         System.out.print(" Enter the temperature : ");
         Scanner keyboard = new Scanner(System.in);
         int num = Integer.parseInt(keyboard.next()) ;
-        String temp = keyboard.next();
+        
             //Calc Fahrenheit
-            double degreeF = (9 * (num) / 5 ) + 32;
+            double degreeF = (9.0 / 5.0 ) * num + 32;
             //Output the result
         System.out.print( " The temperature is :  " +degreeF + " F");
         }
